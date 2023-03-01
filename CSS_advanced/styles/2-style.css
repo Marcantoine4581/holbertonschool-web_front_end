@@ -1,0 +1,25 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    color: #161616
+}
+
+a {
+    color: #161616
+}
+
+/* All elements with the class "visually-hidden" */
+.visually-hidden {
+    display: none;
+}
+
+/* All elements with the class "card-category" */
+.card-category {
+    color: #D73953
+}
+
+.section-tagline {
+    color: #D73953
+}
