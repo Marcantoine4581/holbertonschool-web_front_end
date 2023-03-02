@@ -159,6 +159,12 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: var(--font-weight-bold);
 }
 
+.row::after {
+    content: ""; /* Defines the text content of the :before and :after pseudo-elements. */
+    display: table; 
+    clear: both;
+}
+
 ul.row {
     margin: 0;
     padding: 0;
