@@ -25,9 +25,9 @@
     --section-title-color: var(--color-black);
 }
 
-/* This is the box-sizing by default */
-*::before, *::after{
-    box-sizing: content-box;
+/*  universal box sizing rule */
+*, *::before, *::after{
+    box-sizing: border-box;
   }
 
 html {
