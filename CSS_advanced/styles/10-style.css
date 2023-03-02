@@ -27,7 +27,7 @@ a {
 }
 
 .section-header {
-    text-align: var(--color-primary);
+    text-align: var(--section-header-align);
 }
 
 .section-tagline {
