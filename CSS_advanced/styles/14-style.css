@@ -1,4 +1,4 @@
-@import-normalize;
+@import url(normalize.css);
 
 :root {
     --color-primary: #d73953;
