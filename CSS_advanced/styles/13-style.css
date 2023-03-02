@@ -11,19 +11,20 @@ body {
     line-height: var(--line-height-base);
 }
 
+/* declaration targeting anchor elements only targets those containing a hyperlink */
 a:link {
     color: var(--text-color);
     text-decoration: none;
 }
-
+/* Selects all visited links */
 a:visited {
     font-style: italic;
 }
-
+/* Selects links on mouse over */
 a:hover {
     text-decoration: underline;
 }
-
+/* Selects the active link */
 a:active {
     background-color: var(--color-light-grey);
 }
